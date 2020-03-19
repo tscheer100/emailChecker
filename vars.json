@@ -1,0 +1,8 @@
+{
+  "username": "email@email.com",
+  "password": "password1234",
+  "target": "receive-from@email.com",
+  "phone": 1234567890,
+  "carrier": "carrier",
+  "msg": "Check your email"
+}
