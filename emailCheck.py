@@ -17,7 +17,7 @@ text = var["msg"]
 
 conn.login(user, pwd)
 conn.select_folder("INBOX")
-UIDs = conn.search(['UNSEEN', ['FROM', target]])
+
 
 
 
@@ -36,6 +36,8 @@ carriers = {
 }
 
 while True:
+    UIDs = conn.search(['UNSEEN', ['FROM', target]])
+
     print(len(UIDs))
 
     if len(UIDs) >= 1:
